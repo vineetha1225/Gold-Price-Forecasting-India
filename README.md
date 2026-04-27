@@ -69,57 +69,10 @@ where 31.1035 is the number of grams in one troy ounce.
 
 ---
 
-## How to Run
-
-### Option 1 — Google Colab (recommended, no installation needed)
-
-1. Go to [colab.research.google.com](https://colab.research.google.com)
-2. Click File → Upload notebook
-3. Upload `notebooks/gold_price_forecasting_INR.ipynb`
-4. Click Runtime → Run All
-5. All charts appear inline. Files are saved to `outputs/` and `models/`
-
-### Option 2 — Local Python
-
-```bash
-git clone https://github.com/YOUR_USERNAME/gold-price-forecasting-india.git
-cd gold-price-forecasting-india
-pip install -r requirements.txt
-jupyter notebook notebooks/gold_price_forecasting_INR.ipynb
-```
-
----
-
-## Repository Structure
-
-```
-gold-price-forecasting-india/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── notebooks/
-│   └── gold_price_forecasting_INR.ipynb
-├── data/
-│   └── gold_inr_annual_reference.csv
-└── outputs/
-    ├── raw_gold_inr.png
-    ├── actual_vs_predicted_INR.png
-    ├── residuals_INR.png
-    └── future_forecast_INR.png
-```
-
----
 
 ## Author
 
-**Your Name**  
-Project submitted to: [Your Department / Supervisor Name]  
-Date: April 2026
+**VINEETHA**  
 
----
 
-## Disclaimer
 
-This project is for educational and analytical purposes only.
-Gold price forecasts are based on historical patterns and should not
-be used as financial investment advice.
