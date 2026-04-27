@@ -1,4 +1,4 @@
-# Gold Price Forecasting Model In India
+# Gold Price Forecasting Model
 
 A machine learning project that predicts future gold prices in India using 16 years of real data from 2010 to 2026.
 
